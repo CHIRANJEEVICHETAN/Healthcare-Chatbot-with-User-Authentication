@@ -1,56 +1,65 @@
-# :two_hearts: Health Care Chat-Bot 🤖
+# :two_hearts: Healthcare Chatbot with User Authentication 🤖
 
-Project for the 4th Semester Subject -> Machine Learning
+The Healthcare Chatbot with User Authentication is an advanced chatbot system designed to simulate the predictions of a general physician, providing healthcare support and guidance 24/7.
 
-Health Care Chat-Bot is a Healthcare Domain Chatbot to simulate the predictions of a General Physician.
+## :page_with_curl: Overview
 
-## :page_with_curl: Brief
+Chatbots facilitate interaction through text or voice interfaces, powered by artificial intelligence. They are used across various applications, including:
 
-Through chatbots one can communicate with text or voice interface and get reply through artificial intelligence
+1. E-commerce customer service
+2. Call centers
+3. Internet gaming
 
-Typically, a chat bot will communicate with a real person.
-Chat bots are used in applications such as
-
-1. E-commerce customer service,
-2. Call centres,
-3. Internet gaming.
-
-Chatbots are programs built to automatically engage with received messages. Chatbots can be programmed to respond the same way each time, to respond differently to messages containing certain keywords and even to use machine learning to adapt their responses to fit the situation.
-A developing number of hospitals, nursing homes, and even private centres, presently utilize online Chatbots for human services on their sites. These bots connect with potential patients visiting the site, helping them discover specialists, booking their appointments, and getting them access to the correct treatment.
-In any case, the utilization of artificial intelligence in an industry where individuals’ lives could be in question, still starts misgivings in individuals. It brings up issues about whether the task mentioned above ought to be assigned to human staff. This healthcare chatbot system will help hospitals to provide healthcare support online 24 x 7, it answers deep as well as general questions. It also helps to generate leads and automatically delivers the information of leads to sales. By asking the questions in series it helps patients by guiding what exactly he/she is looking for.
+In the healthcare sector, chatbots are becoming increasingly popular for assisting patients online. They help users find specialists, book appointments, and access appropriate treatments. This chatbot system addresses the need for continuous healthcare support and automates patient guidance by providing information and recommending doctors based on symptoms.
 
 ## :card_index: Features
 
-- Register Screen.
-- Sign-in Screen.
-- Generates database for user login system.
-- Offers you a GUI Based Chatbot for patients for diagnosing. [A pragmatic Approach for Diagnosis]
-- Reccomends an appropriate doctor to you for the following symptom.
+- **User Registration and Login Screens**: Secure user registration and login functionality.
+- **Database Management**: Generates and manages a database for user authentication.
+- **GUI-Based Chatbot**: A user-friendly interface for interacting with the chatbot and diagnosing symptoms.
+- **Doctor Recommendations**: Recommends appropriate doctors based on patient-reported symptoms.
 
 ## :scroll: Modules Used
 
-Our program uses a number of python modules to work properly:
+The project utilizes the following Python modules:
 
-1. tkinter
-1. os
-1. webbrowser
-1. numpy
-1. pandas
-1. matplotlib
+1. `tkinter` - For GUI creation
+2. `os` - For interacting with the operating system
+3. `webbrowser` - For opening URLs in a web browser
+4. `numpy` - For numerical operations
+5. `pandas` - For data manipulation and analysis
+6. `matplotlib` - For plotting and visualizing data
 
 ## :white_square_button: Installation
 
-Install the following package by typing the following in CMD
+To set up the project, follow these steps:
 
-- `pip install numpy`
-- `pip install pandas`
-- `pip install matplotlib`
+1. Install the required Python packages by running the following commands in your command prompt (CMD):
 
-To make sure it is installed correctly, open IDLE and execute :
+    ```bash
+    pip install numpy
+    pip install pandas
+    pip install matplotlib
+    ```
 
-- `import numpy`
-- `import pandas`
-- `import matplotlib`
+2. Verify the installation by opening IDLE and executing the following commands:
 
-If no errors appeared then the installation is done correctly.
-Then, Go to your directory and run the file `QuestionDiagonosisTkinter.py`
+    ```python
+    import numpy
+    import pandas
+    import matplotlib
+    ```
+
+    If no errors appear, the installation is successful.
+
+3. Navigate to your project directory and run the file `QuestionDiagnosisTkinter.py` to start the application.
+
+## :memo: Usage
+
+- **Registration**: Register a new user by providing a username and password.
+- **Login**: Log in using the registered username and password.
+- **Chatbot Interaction**: Use the chatbot to diagnose symptoms and receive recommendations.
+- **Doctor Recommendations**: Based on the symptoms described, the chatbot will suggest appropriate doctors from the provided dataset.
+
+Feel free to explore the functionalities and contribute to the project!
+
